@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css?family=Mukta+Malar" rel="stylesheet">
+        <link rel="stylesheet" href="css/primary.css">
+    </head>
+
+    <body>
+
+      <form action="index.html" method="post">
+          <h2>Signup for our newsletter </h2>
+          <h5>Get the latest news on how your code is doing right in your inbox</h5>
+        <footer></footer>
+
+          <fieldset>
+            <legend>Contact Information</legend>
+            <label for="name">Name</label><input type="text" id="name" name="user name">
+            <label for="mail">Email Address</label><input type="email" id="mail" name="user email ">
+            <label for="number">Phone Number</label><input type="telephone" id="number" name="user number">
+            <label for="address">Street Address</label><input type="place" id="address" name="user address">
+            <label for="city">City</label><input type="city" id="city" name="user">
+            <label for="state">State</label><select id="state" name="user state">
+            <option value="AL">Alabama</option>
+            <option value="Ak">Alaska</option>
+            <option value="AZ">Arizona</option>
+            <option value="AR">Arkansas</option>
+            <option value="CA">Carlifornia</option>
+            <option value="CO">Colorado</option>
+            <option value="CN">Cennecticut</option>
+            <option value="DA">Deleware</option>
+            <option value="FL">Florida</option>
+            <option value="GA">Georgia</option>
+            <option value="HI">Hawaii</option>
+            <option value="ID">Idaho</option>
+            <option value="IL">Illinois</option>
+          </fieldset>
+          <fieldset>
+            <label for="zip">Zip Code</label>
+            <input class= zipcode type="text" id="zip" name="user code"> <label for="zip">Zip Code</label>
+            <h4>Gender:</h4>
+            <label for="male">Male</label>
+            <input type="radio" id="male"name="gender"><br>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender">
+          </fieldset>
+          <footer class="footer2"></footer>
+          <fieldset>
+          <h2>News Letter</h2>
+          <h5>Select the news letter you would like to recieve</h5>
+          <input type="checkbox" id="htmlnews" value="news interest"
+          name="user news"><label for="htmlnews">HTML News</label><br>
+          <input type="checkbox" id="cssnews" value="news interest"
+          name="user news"><label for="cssnews">CSS News</label><br>
+          <input type="checkbox" id="javanews" value="news interest"
+          name="user news"><label for="javanews">Javascript News</label><br>
+          <p>Newsletter format<p>
+          <input type="checkbox" id="html" value="news interest"
+            name="user news"><label for="html">HTML</label><br>
+          <input type="checkbox" id="text" value="news interest"
+            name="user news"><label for="text">Plain Text</label>
+          <p>Other topics you'd like to hear about<p>
+          <textarea id="comment" name="topics"></textarea>
+        </fieldset>
+        <button type="submit">Sign Up</button>
+      </form>
+      </body>
+
+
+</html>
