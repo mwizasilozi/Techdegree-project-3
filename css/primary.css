@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   color: #384047;
 }
 
@@ -24,6 +24,12 @@ h5, h2 {
   text-align: center;
 }
 
+#zip {
+  display: block;
+  max-width: 60%;
+  margin-left: 0;
+}
+
 footer {
   border-bottom: 6px ridge #808B96;
   width: 100%;
@@ -31,11 +37,13 @@ footer {
 
 .footer2 {
   margin-top: 10px;
+  border-bottom: 6px solid #808B96;
   width: 100%;
 }
 
 fieldset {
   margin: 20px 10px 0 20px;
+  border-bottom: 6px ridge #808B96;
   border: none;
 }
 
@@ -55,7 +63,7 @@ textarea, select  {
   margin: 10 auto;
   outline: 0;
   width: 100%;
-  font-size: 15px;
+  font-size: 20px;
   padding: 15px;
   background-color: #E0E1E5;
   box-shadow: 0 3px 0 rgba(234, 242, 248 ) inset;
@@ -88,22 +96,29 @@ textarea {
   max-height: 250px;
   max-width: 250px;
 }
-
+.testin,  {
+  margin-left: 2px;
+}
 select  {
   color: #3A5983;
   padding: 8px;
-  margin-top: -15px;
-  width: 92%;
+  margin-top: -1px;
+  width: 100%;
   overflow: hidden;
 }
+ .main8 {
+   display: inline-block;
+ }
 
  label {
   display: inline-block;
   margin: 10px 0 10px 0;
-  margin-right: 10px;
+  margin-right: 1px;
 }
+
 legend {
-  font-weight: 400em;
+  font-size: 1.2em;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 
@@ -112,8 +127,39 @@ legend {
   form {
     max-width: 768px;
   }
-  input, label {
-    display: inline-block;
-    width: 100%;
+
+ .main1,
+ .main2,
+ .main3.
+ .main4,
+ .main5,
+ .main6,
+ .main7 {
+  display: flex;
+}
+
+
+#name,
+#mail,
+#number,
+#address,
+#city,
+#state, #zip {
+  margin-left: 70px;
+  object-fit: fill;
+  width: 70%;
+}
+
+#zip {
+  display: inline-block;
+  width: 40%;
+}
+
+  textarea {
+    max-height:150px;
+    max-width: 673px;
+  }
+  .mango {
+    text-align: left;
   }
 }

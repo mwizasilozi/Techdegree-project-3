@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sign Up Form</title>
         <link rel="stylesheet" href="css/normalize.css">
-        <link href="https://fonts.googleapis.com/css?family=Muli|Oswald" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
         <link rel="stylesheet" href="css/primary.css">
     </head>
 
@@ -18,13 +18,33 @@
 
           <fieldset>
             <legend>Contact Information</legend>
-            <label for="name">Name</label><input type="text" id="name" name="user name">
-            <label for="mail">Email Address</label><input type="email" id="mail" name="user email ">
-            <label for="number">Phone Number</label><input type="telephone number" id="number" name="user number">
-            <label for="address">Street Address</label><input type="address" id="address" name="user address">
-            <label for="city">City</label><input type="city" id="city" name="user">
-            <label for="state">State</label>
-            <select id="state" type="state" name="user state">
+
+          <div class="main1">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="user name">
+          </div>
+
+          <div class="main2">
+            <label for="mail">Email Address</label>
+            <input type="email" id="mail" name="user email ">
+          </div>
+          <div class="main3">
+            <label  for="number">Phone Number</label>
+            <input type="telephone number" id="number" name="user number">
+          </div>
+          <div class="main4">
+            <label for="address">Street Address</label>
+            <input type="address" id="address" name="user address">
+          </div>
+
+          <div class="main5"
+            <label  for="city">City</label>
+            <input type="city" id="city" name="user">
+          </div>
+
+          <div class="main6">
+            <label  for="state">State</label>
+            <select id="state" type="text" name="user state">
             <option value="AL">Alabama</option>
             <option value="Ak">Alaska</option>
             <option value="AZ">Arizona</option>
@@ -39,18 +59,26 @@
             <option value="ID">Idaho</option>
             <option value="IL">Illinois</option>
           </select>
+        </div>
+
+          <div class="main7">
             <label for="zip">Zip Code</label>
             <input  type="text" id="zip" name="user code">
-            <h4>Gender:</h4>
+          </div>
+
+          <div class="main8">
+            <label>Gender:</label><br>
             <label for="male">Male</label>
             <input class="lined" type="radio" id="male"name="gender"><br>
             <label for="female">Female</label>
             <input class="lined"type="radio" id="female" name="gender">
+          </div>
           </fieldset>
           <footer class="footer2"></footer>
           <fieldset>
-          <h2>News Letter</h2>
-          <h5>Select the news letter you would like to recieve</h5>
+          <h2 class="mango">News Letter</h2>
+          <h5 class="mango">Select the news letter you would like to recieve</h5>
+          <span class="testin">
           <input type="checkbox" id="htmlnews" value="news interest"
           name="user news"><label for="htmlnews">HTML News</label><br>
           <input type="checkbox" id="cssnews" value="news interest"
@@ -62,6 +90,7 @@
             name="user news"><label for="html">HTML</label><br>
           <input type="checkbox" id="text" value="news interest"
             name="user news"><label for="text">Plain Text</label>
+          </span>
           <p>Other topics you'd like to hear about<p>
           <textarea id="comment" name="topics"></textarea>
         </fieldset>
