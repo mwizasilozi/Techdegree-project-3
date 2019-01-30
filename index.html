@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="en">
+<head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sign Up Form</title>
@@ -12,39 +12,40 @@
     <body>
 
       <form action="index.html" method="post">
+          <div class="container">
           <h2>Signup for our newsletter </h2>
           <h5>Get the latest news on how your code is doing right in your inbox</h5>
+        </div>
         <footer></footer>
 
-          <fieldset>
+      <fieldset>
             <legend>Contact Information</legend>
-
           <div class="main1">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="user name">
+            <label class="width" for="name">Name</label>
+            <input type="text" id="name" name="user_name" placeholder="required">
           </div>
 
           <div class="main2">
-            <label for="mail">Email Address</label>
-            <input type="email" id="mail" name="user email ">
+            <label class="width" for="mail">Email Address</label>
+            <input type="email" id="mail" name="user_email" placeholder="required">
           </div>
           <div class="main3">
-            <label  for="number">Phone Number</label>
-            <input type="telephone number" id="number" name="user number">
+            <label  class="width" for="number">Phone Number</label>
+            <input type="text" id="number" name="user_number">
           </div>
           <div class="main4">
-            <label for="address">Street Address</label>
-            <input type="address" id="address" name="user address">
+            <label class="width" for="address">Street Address</label>
+            <input type="text" id="address" name="user_address">
           </div>
 
-          <div class="main5"
-            <label  for="city">City</label>
-            <input type="city" id="city" name="user">
+          <div class="main5">
+            <label class="width" for="city">City</label>
+            <input type="text" id="city" name="user_city">
           </div>
 
           <div class="main6">
-            <label  for="state">State</label>
-            <select id="state" type="text" name="user state">
+            <label class="width" for="state">State</label>
+            <select id="state"  name="userstate">
             <option value="AL">Alabama</option>
             <option value="Ak">Alaska</option>
             <option value="AZ">Arizona</option>
@@ -58,45 +59,57 @@
             <option value="HI">Hawaii</option>
             <option value="ID">Idaho</option>
             <option value="IL">Illinois</option>
+            <option value="IL">Indiana</option>
+            <option value="IL">Iowa</option>
+            <option value="IL">Kansas</option>
+            <option value="IL">Kentucky</option>
+            <option value="IL">Lousiana</option>
+            <option value="IL">Maine</option>
+            <option value="IL">Maryland</option>
+            <option value="IL">Massachusetts</option>
+            <option value="IL">Michigan</option>
+            <option value="IL">Minnesota</option>
           </select>
+
         </div>
 
           <div class="main7">
-            <label for="zip">Zip Code</label>
+            <label class="width" for="zip">Zip Code</label>
             <input  type="text" id="zip" name="user code">
           </div>
 
           <div class="main8">
             <label>Gender:</label><br>
             <label for="male">Male</label>
-            <input class="lined" type="radio" id="male"name="gender"><br>
+            <input class="lined" type="radio" id="male" name="gender"><br>
             <label for="female">Female</label>
-            <input class="lined"type="radio" id="female" name="gender">
+            <input class="lined" type="radio" id="female" name="gender">
           </div>
-          </fieldset>
+
+      </fieldset>
           <footer class="footer2"></footer>
-          <fieldset>
+      <fieldset>
           <h2 class="mango">News Letter</h2>
           <h5 class="mango">Select the news letter you would like to recieve</h5>
-          <span class="testin">
-          <input type="checkbox" id="htmlnews" value="news interest"
+        <div class="testin">
+          <input class="check" type="checkbox" id="htmlnews" value="news interest"
           name="user news"><label for="htmlnews">HTML News</label><br>
-          <input type="checkbox" id="cssnews" value="news interest"
+          <input class="check" type="checkbox" id="cssnews" value="news interest"
           name="user news"><label for="cssnews">CSS News</label><br>
-          <input type="checkbox" id="javanews" value="news interest"
+          <input class="check" type="checkbox" id="javanews" value="news interest"
           name="user news"><label for="javanews">Javascript News</label><br>
           <p>Newsletter format<p>
-          <input type="checkbox" id="html" value="news interest"
+          <input class="check" type="checkbox" id="html" value="news interest"
             name="user news"><label for="html">HTML</label><br>
-          <input type="checkbox" id="text" value="news interest"
+          <input class="check" type="checkbox" id="text" value="news interest"
             name="user news"><label for="text">Plain Text</label>
-          </span>
+        </div>
           <p>Other topics you'd like to hear about<p>
           <textarea id="comment" name="topics"></textarea>
-        </fieldset>
         <button type="submit">Sign Up</button>
-      </form>
-      </body>
+      </fieldset>
+    </form>
+  </body>
 
 
 </html>
