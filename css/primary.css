@@ -7,6 +7,26 @@ body {
   color: #384047;
 }
 
+
+.heading {
+  text-align: center;
+  color: white;
+  font-size: 1.8em;
+  font-weight: 600;
+  margin: 20px 20px 20px 20px;
+  padding: 40px 30px 40px 30px;
+  background-color: #416160;
+}
+.copy {
+  text-align: center;
+  font-style: italic;
+  font-size: .7em;
+  font-weight: 600;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+  background-color: #E7F4F5;
+}
+
 form {
   max-width: 767px;
   margin: 10px auto;
@@ -31,20 +51,25 @@ h5 {
   text-align: center;
 }
 
+ .mango {
+   text-align: left;
+ }
+
 #zip {
   display: block;
   max-width: 60%;
   margin-left: 0;
 }
 
-footer {
+.solid {
   border-bottom: 6px ridge #808B96;
   width: 100%;
 }
 
 
-.footer2 {
+.solid1 {
   margin-top: 50px;
+  margin-bottom: 50px;
   border-bottom: 6px solid #808B96;
   width: 100%;
 }
@@ -58,6 +83,9 @@ fieldset {
 
 input[type="text"],
 input[type="email"],
+input[type="text"],
+input[type="number"],
+input[type="number"],
 input[type="text"],
 input[type="text"],
 input[type="text"],
@@ -79,6 +107,10 @@ input:focus {
   background-color: #BAEEF1;
 }
 
+select#state:focus {
+  background-color: #BAEEF1;
+}
+
 .placeholder {
   text-align: left;
 }
@@ -92,7 +124,8 @@ option {
 }
 
 button {
-  padding: 10px 39px 18px 39px;
+  padding: 20px 25px 20px 25px;
+  text-align: center;
   color: white;
   background-color: #3E9195;
   font-size: 22px;
@@ -127,6 +160,7 @@ select  {
   display: inline-block;
   margin: 10px 0 10px 0;
   margin-right: 1px;
+  font-weight: 500;
 }
 
 legend {
@@ -145,6 +179,9 @@ legend {
 #name,
 #mail,
 #number,
+#cell,
+#date,
+#occup,
 #address,
 #city,
 #state,
@@ -162,7 +199,10 @@ div.main2,
 div.main6,
 div.main4,
 div.main5,
-div.main7 {
+div.main7,
+div.main8,
+div.main9,
+div.main10 {
   display: inline-block;
   width: 100%;
 }
