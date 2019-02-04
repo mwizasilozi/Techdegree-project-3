@@ -85,8 +85,8 @@ fieldset {
 
 input[type="text"],
 input[type="email"],
-input[type="text"],
-input[type="number"],
+input[type="telephone"],
+input[type="telephone"],
 input[type="number"],
 input[type="text"],
 input[type="text"],
@@ -113,9 +113,23 @@ select#state:focus {
   background-color: #BAEEF1;
 }
 
-.placeholder {
-  text-align: left;
+input:hover {
+  background-color: #85C6C4;
 }
+
+select#state:hover {
+    background-color: #85C6C4;
+}
+
+textarea:hover {
+    background-color: #85C6C4;
+}
+
+textarea:focus {
+    background-color: #BAEEF1;
+    color: black;
+}
+
 
 option {
   margin-bottom: 9px;
@@ -154,9 +168,6 @@ select  {
   text-indent: 1em;
 }
 
- .main8 {
-   display: inline-block;
- }
 
  label {
   display: inline-block;
@@ -195,16 +206,7 @@ legend {
   width: 70%;
 }
 
-div.main1,
-div.main3,
-div.main2,
-div.main6,
-div.main4,
-div.main5,
-div.main7,
-div.main8,
-div.main9,
-div.main10 {
+.input-field {
   display: inline-block;
   width: 100%;
 }
