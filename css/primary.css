@@ -109,18 +109,21 @@ input#name:focus,
 input#mail:focus,
 input#number:focus,
 input#cell:focus,
-input#date:focus,
+input#day:focus,
 input#occup:focus,
 input#address:focus,
 input#city:focus,
-input#zip:focus,
-select#state:focus {
+input#zip:focus {
   background-color: #BAEEF1;
 }
 
 
 input:hover {
   background-color: #85C6C4;
+}
+
+select#state:focus {
+  background-color: #BAEEF1;
 }
 
 select#state:hover {
@@ -166,7 +169,6 @@ textarea {
 
 
 select  {
-  color: #3A5983;
   padding: 8px;
   margin-top: -1px;
   width: 100%;
