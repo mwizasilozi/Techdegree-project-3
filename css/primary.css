@@ -85,9 +85,9 @@ fieldset {
 
 input[type="text"],
 input[type="email"],
-input[type="telephone"],
-input[type="telephone"],
-input[type="number"],
+input[type="tel"],
+input[type="tel"],
+input[type="date"],
 input[type="text"],
 input[type="text"],
 input[type="text"],
@@ -105,13 +105,19 @@ textarea, select  {
   margin-bottom: 10px;
 }
 
-input:focus {
-  background-color: #BAEEF1;
-}
-
+input#name:focus,
+input#mail:focus,
+input#number:focus,
+input#cell:focus,
+input#date:focus,
+input#occup:focus,
+input#address:focus,
+input#city:focus,
+input#zip:focus,
 select#state:focus {
   background-color: #BAEEF1;
 }
+
 
 input:hover {
   background-color: #85C6C4;
@@ -181,6 +187,12 @@ legend {
   font-weight: 600;
   margin-bottom: 10px;
 }
+.spacing {
+  margin-top: 25px;
+  margin-bottom: 15px;
+
+}
+
 
 @media screen and (min-width: 768px){
 
@@ -193,7 +205,7 @@ legend {
 #mail,
 #number,
 #cell,
-#date,
+#day,
 #occup,
 #address,
 #city,
